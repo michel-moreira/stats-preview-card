@@ -24,6 +24,7 @@
   /* ------------------------------- */
   .preview-card picture {
     margin-bottom: 1.5rem;
+    border-radius: 1rem 1rem 0 0;
   }
   .preview-card picture .image {
     border-radius: 1rem 1rem 0 0;
