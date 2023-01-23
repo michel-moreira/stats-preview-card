@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="src/styles/reset.css">
+  <link rel="stylesheet" href="src/styles/variables.css">
+  <link rel="stylesheet" href="src/styles/style.css">
+  <link rel="stylesheet" href="src/styles/responsive.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <main aria-label="main">
+    <section class="preview-card">
+      <div class="info">
+        <h1 class="heading">Get <span class="highlight">insights</span> that help your business grow.</h1>
+        <p class="description">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
+        <ul class="media-stats">
+          <li>
+            <p class="heading-stats">10k+</p>
+            <p class="description-stats">companies</p>
+          </li>
+          <li>
+            <p class="heading-stats">314</p>
+            <p class="description-stats">templates</p>
+          </li>
+          <li>
+            <p class="heading-stats">12M+</p>
+            <p class="description-stats">queries</p>
+          </li>
+        </ul>
+      </div>
+      <picture>
+        <source media="(min-width: 769px)" srcset="./src/images/image-header-desktop.jpg">
+        <img src="./src/images/image-header-mobile.jpg" alt="Stats Preview Group" class="image">
+      </picture>
+    </section>
+  </main>
+
+  <footer class="attribution">
+   <p>
+    Coded by <a href="https://www.frontendmentor.io/profile/michel-moreira">Michel Moreira</a>.
+   </p> 
+  </footer>
+</body>
+
+</html>
