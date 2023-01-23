@@ -1,11 +1,4 @@
 @media (max-width: 768px) {
-  .preview-card {
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: center;
-    margin: 1rem;
-  }
-  /* ------------------------------- */  
   .preview-card .info .media-stats {
     display: flex;
     flex-direction: column;
@@ -26,6 +19,7 @@
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
+    margin: 1rem;
   }
   /* ------------------------------- */
   .preview-card picture {
